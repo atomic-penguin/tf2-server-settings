@@ -1,0 +1,129 @@
+"Commands"
+{
+	"Server Cvars"
+	{
+		"admin"		"sm_cvar"
+		"Alltalk"
+		{
+			"cmd"		"exec #1"
+			"admin"		"sm_cvar"
+			"execute"	"server"
+			"1"
+			{
+				"type" 		"list"
+				"title"		"Alltalk:"
+                "1"         "alltalk_on"
+                "1."        "Alltalk On"
+                "2"         "alltalk_off"
+                "2."        "Alltalk Off"
+			}
+		}
+        "Replay"
+        {
+            "cmd"      "replay_enable #1"
+            "admin"    "sm_cvar"
+            "execute"  "server"
+            "1"
+            {
+                "type"      "onoff"
+                "title"     "Replay:"
+            }
+        }
+        "Crits"
+        {
+            "cmd"       "exec #1"
+            "admin"     "sm_cvar"
+            "execute"   "server"
+            "1"
+            {
+               "type" "list"
+               "title" "Crits:"
+               "1"     "crits"
+               "1."    "Random crits/spread"
+               "2"     "nocrits"
+               "2."    "No crits/spread"
+            }
+        }
+		"Round limit"
+		{
+			"cmd"		"mp_maxrounds #1"
+			"admin"		"sm_cvar"
+			"execute"	"server"
+			"1"
+			{
+				"type" 		"list"
+				"title"		"Round limit:"
+				"1"		"3"
+				"2"		"5"
+				"3"		"7"
+                "4"     "10"
+                "5"     "15"
+                "6"     "20"
+                "7"     "0"
+			}
+		}
+	}
+	"Bot Control"
+	{
+		"admin"		"sm_cvar"
+		"Set Bot Count (quota)"
+		{
+			"cmd"		"tf_bot_quota #1"
+			"admin"		"sm_ban"
+			"execute"	"server"
+			"1"
+			{
+				"type"		"list"
+				"title"		"Bot Quota:"
+				"1"		"0"
+                "1."    "Off"
+                "2"     "12"
+                "2."    "6v6"
+                "3"     "18"
+                "3."    "9v9"
+			}
+		}
+		"Kick All Bots"
+		{
+			"cmd"		"tf_bot_quota 0; tf_bot_kick all; satm_enabled 0"
+			"admin"		"sm_cvar"
+			"execute"	"server"
+		}
+		"Add a Bot"
+		{
+			"cmd"		"#1"
+			"admin"		"sm_cvar"
+			"execute"	"server"
+			"1"
+			{
+				"type"		"list"
+				"title"		"Add a Bot"
+				"1"		"tf_bot_add"
+				"1."	"Add 1 bot"
+				"2"		"tf_bot_add blue"
+				"2."	"Add 1 Blu bot"
+				"3"		"tf_bot_add red"
+				"3."	"Add 1 Red bot"
+			}
+		}
+		"Bot Difficulty"
+		{
+			"cmd"		"tf_bot_kick all; tf_bot_difficulty #1; tf_bot_quota 18"
+			"admin"		"sm_cvar"
+			"execute"	"server"
+			"1"
+			{
+				"type"		"list"
+				"title"		"Difficulty:"
+				"1"		"0"
+				"1."		"Easy"
+				"2"		"1"
+				"2."		"Normal"
+				"3"		"2"
+				"3."		"Hard"
+				"4"		"3"
+				"4."		"Expert"
+			}
+		}
+	}
+}

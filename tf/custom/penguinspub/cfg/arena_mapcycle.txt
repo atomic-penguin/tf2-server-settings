@@ -1,0 +1,15 @@
+arena_lumberyard
+arena_ravine
+arena_badlands
+arena_granary
+arena_well
+arena_watchtower
+arena_sawmill
+arena_nucleus
+arena_offblast_final
+arena_timberworks_b2a
+arena_concord_b3
+arena_dam-it_b1
+arena_ruins_a3
+arena_backlot_rc2
+arena_harvest_v2

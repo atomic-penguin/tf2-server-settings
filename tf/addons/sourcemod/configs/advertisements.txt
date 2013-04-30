@@ -1,0 +1,33 @@
+"Advertisements"
+{
+    "1"
+    {
+        "type"        "S"
+        "text"        "Affiliate subreddit, {GREEN}/r/tf2lessons{DEFAULT}"
+    }
+    "2"
+    {
+        "type"        "S"
+        "text"        "{GREEN}Penguin's Pub{DEFAULT}: a casual, just for fun, server."
+    }
+    "3"
+    {
+        "type"        "S"
+        "text"        "Keep the game friendly, be a {GREEN}good sport."
+    }
+    "4"
+    {
+         "type"       "S"
+         "text"       "Server hosted by {GREEN}http://steamcommunity.com/groups/PenguinsPub"
+    }
+    "5"
+    {
+        "type"		  "S"
+        "text"        "Stats/ranking available at {GREEN}stats.rugc.us{DEFAULT}"
+    }
+    "6"
+    {
+        "type"        "S"
+        "text"        "For a good time, {GREEN}high five your enemies{DEFAULT}."
+    }
+}

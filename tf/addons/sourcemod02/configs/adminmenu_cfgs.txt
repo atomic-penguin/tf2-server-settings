@@ -1,0 +1,22 @@
+/**
+ * List config files here (relative to moddir) to have them added to the exec config menu list
+ * Left side is the filename, right side is the text to be added to the menu
+ */
+Configs
+{
+    "cfg/sourcetv_on.cfg"       "SourceTV ON"
+    "cfg/sourcetv_off.cfg"      "SourceTV OFF"
+    "cfg/classlimits_on.cfg"    "Classlimits On"
+    "cfg/classlimits_off.cfg"   "Classlimits Off"
+    "cfg/tournament_restart.cfg" "Restart Tournament"
+    "cfg/ugc_HL_ctf.cfg"        "UGC HL CTF"
+    "cfg/ugc_HL_dom.cfg"        "UGC HL DOM"
+    "cfg/ugc_HL_koth.cfg"       "UGC HL KOTH"
+    "cfg/ugc_HL_standard.cfg"   "UGC HL Standard"
+    "cfg/ugc_HL_stopwatch.cfg"  "UGC HL Stopwatch"
+    "cfg/ugc_HL_tugofwar.cfg"   "UGC HL Tug of War"
+    "cfg/ugc_off.cfg"           "UGC Off"
+    "cfg/server02.cfg"          "Main server config"
+    "cfg/sourcemod/sm_warmode_on.cfg"   "War Mode On"
+    "cfg/sourcemod/sm_warmode_off.cfg"  "War Mode Off"
+}
