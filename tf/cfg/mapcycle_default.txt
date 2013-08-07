@@ -48,3 +48,5 @@ cp_gullywash_final1
 cp_foundry
 sd_doomsday
 koth_king
+cp_process_final
+cp_standin_final

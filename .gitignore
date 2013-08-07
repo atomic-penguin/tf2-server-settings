@@ -7,6 +7,13 @@ Session.vim
 
 /*
 !/tf
+/tf/stats.txt
+/tf/gameinfo.txt
+/tf/steam.inf
+/tf/cfg/*
+!/tf/cfg/banned*
+!/tf/cfg/mapcycle*
+!/tf/cfg/sourcemod
 /tf/download/
 /tf/downloadlists/
 /tf/logs/*

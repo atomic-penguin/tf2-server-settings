@@ -8,3 +8,5 @@ cp_well
 cp_yukon_final
 cp_foundry
 cp_gullywash_final1
+cp_process_final
+cp_standin_final
