@@ -20,8 +20,11 @@ Session.vim
 /tf/addons/sourcemod*/translations
 /tf/addons/sourcemod*/gamedata
 /tf/addons/sourcemod*/data
+/tf/custom/**/cfg/password*.cfg
+/tf/custom/**/cfg/rcon*.cfg
 !/tf/custom
 !.gitignore
+
 
 *.bsp
 *.bz2
