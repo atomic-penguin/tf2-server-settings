@@ -50,6 +50,3 @@ pl_barnblitz
 cp_gullywash_final1
 koth_viaduct_event
 cp_foundry
-koth_king
-sd_doomsday
-koth_lakeside_event

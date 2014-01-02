@@ -1,4 +1,4 @@
-Reddit Unofficial Gaming Community - Penguin's Pub (/r/tf2lessons).
+Reddit Unofficial Gaming Community - Penguin's Pub
 
 Rules:
 
@@ -8,8 +8,7 @@ Rules:
 
 Info:
 
-  * Affiliate subreddit, /r/tf2lessons
-  * Player stats/ranking, stats.rugc.us
-  * Useful triggers: !nominate, !rtv, !votescramble, !bots, !nobots
+  * Player stats/ranking, http://stats.rugc.us
+  * Useful triggers: !nominate, !rtv, !votescramble
 
  -- your friendly neighborhood admins 

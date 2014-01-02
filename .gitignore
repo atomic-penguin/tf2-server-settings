@@ -40,3 +40,4 @@ Session.vim
 *.so
 *.dll
 *.dylib
+*.smx
